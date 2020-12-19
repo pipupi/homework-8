@@ -1,0 +1,136 @@
+/* screen - index */
+* {box-sizing: border-box;}
+
+
+
+
+.border-class-1 {
+  border:0px solid transparent;
+}
+.font-class-1 {
+  font-family:'Roboto', Helvetica, Arial, serif;
+  font-style:normal;
+  font-weight:400;
+}
+.header {
+    position: relative;
+    text-align: left;
+    color: white;
+    grid-area: h;
+    width: 100%; /*make the img responsible with the actual screen width*/
+}
+
+.iconspace-sort-3 {
+    background-color: transparent;
+    top: var(--edge);
+    right:var(--edge);
+    position: fixed;
+    
+    width: var(--iconp);
+}
+.arc-index {
+    top: var(--edge);
+    background-color: transparent;
+    color: var(--black);
+    font-size: 55.0px;
+    height: 100%;
+    width:400px;
+    position: fixed;
+    text-align: left;
+    width: var(--iconp);
+    left: var(--edge);
+}
+.x2017-08-30-rolls-12-1 {
+    background-color: transparent;
+    width: 100%; /*make the img responsible with the actual screen width*/
+    left: 1px;
+    top: 1px;
+}
+
+
+
+
+.rectangle-o {
+    background: var(--n-red);
+    grid-area: b;
+    height: var(--h);
+    width: 100%;
+}
+.rectangle-o:hover {
+    background: var(--red); 
+
+}
+.rectangle-o:active {
+    background: var(--l-red); 
+
+}
+
+.intro {
+   
+    background: transparent;
+    text-align: center;
+    grid-area: c;
+    width: 100%; /*make the img responsible with the actual screen width*/
+    height: 40%;
+    overflow: hidden;
+}
+
+
+.rectangle-i {
+    background: var(--white);
+    grid-area: c;
+    height: var(--h);
+    width: 100%;
+}
+
+.diagram {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 30%;
+}
+
+.info {
+  padding-top: 5%;
+  color: Black;
+  width: 100%;
+  text-align: center;
+
+  height: 24px;
+  top: 80%;
+}
+
+.container {
+  display: flex; /* or inline-flex */
+  justify-content: center;
+}
+
+:root {
+    --black: rgba(0,0,0,1.0);
+    --cornflower-blue: rgba(91,149,234,1.0);
+    --cream-brulee: rgba(255,222,160,1.0);
+    --malibu: rgba(106,189,255,1.0);
+    --mist-gray: rgba(196,196,196,1.0);
+    --white: rgba(255,255,255,1.0);
+    --red: rgba(255,130,130,1.0);
+    --iconp: 40px;
+    --edge: 5%;
+    --edge4: 4%;
+    --h: 200px;
+    --p1: 50px;
+    --p2: 100px;
+    --p3: 350px;
+    --w1: 90%;
+    --l-blue: rgba(214,237,255,1.0);
+    --n-blue: rgba(151,209,255,1.0);
+    --l-red: rgba(255,215,215,1.0);
+    --n-red: rgba(255,162,162,1.0);
+    --l-brulee: rgba(255,238,205,1.0);
+    --n-brulee: rgba(255,210,125,1.0);
+    --l-purple: rgba(233,205,255,1.0);
+    --n-purple: rgba(212,159,255,1.0);
+    --txta1: 18%;
+    --txta2: 44%
+}

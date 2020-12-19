@@ -1,0 +1,371 @@
+/* screen - navigation-l */
+* {box-sizing: border-box;}
+
+
+
+/* Transtion definition*/
+.transform {
+  -webkit-transition: all 1s ease;  
+  -moz-transition: all 1s ease;  
+  -o-transition: all 1s ease;  
+  -ms-transition: all 1s ease;  
+  transition: all 1s ease;
+}
+
+/* Buttons format*/
+.Up {
+    
+  position: absolute;
+  width: 33.67px;
+  height: 19px;
+  left: 50%;
+  margin-left: -16.835px;
+  top: 430px;
+}
+.Down {
+  position: absolute;
+  width: 33.67px;
+  height: 19px;
+  left: 50%;
+  margin-left: -16.835px;
+  top: 603px;
+}
+
+
+
+.T{
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Roboto', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% - 256px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 25px);
+  width: 513px;
+}
+
+
+/* The reason for using absolute postion on y axis is because the actual rendered
+   layout should not be affected by the arrangement of autolayout, which is the code sequence in html*/
+.T1 {
+  position: absolute;
+  /* Since the width is subject to changes by reassigning TEXT CLASSES to different texts in animation
+     we use this to center the absolute positioned text by avoiding explict width expressions
+     , this only applies to text types(not img etc, it will deform itself in x axis)*/
+  width: 100%;
+  text-align: center;
+
+  height: 14px;
+  top: 144px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.T2 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 15px;
+  top: 155px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.T3 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 16px;
+  top: 176px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T4 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 21px;
+  top: 210px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T5 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 28px;
+  top: 265px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T6 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+  
+  height: 42px; 
+  top: 354px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T7 {
+  position: absolute;
+  
+  width: 100%;
+  text-align: center;
+
+  height: 75px;
+  top: 474px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  
+
+
+  color: #FFFFFF;
+}
+.T8 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 42px;
+  top: 642px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T9 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 28px;
+  top: 731px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T10 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 21px;
+  top: 786px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T11 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 16px;
+  top: 820px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T12 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 15px;
+  top: 841px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 15px;
+
+  color: rgba(255, 255, 255, 0.5);
+}
+.T13 {
+  position: absolute;
+
+  width: 100%;
+  text-align: center;
+
+  height: 14px;
+  top: 854px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+.border-class-1 {
+    border: 0px solid transparent;
+}
+
+.font-class-1 {
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header {
+    position: relative;
+    text-align: left;
+    color: white;
+    background-color: black;
+    width: 100%; /*make the img responsible with the actual screen width*/
+}
+
+.iconspace-sort-3 {
+    background-color: transparent;
+    top: var(--edge);
+    right: var(--edge);
+    position: fixed;
+    grid-area: a;
+}
+
+.arc-index {
+    top: var(--edge);
+    background-color: transparent;
+    color: White;
+    font-size: 55.0px;
+    height: 100%;
+    position: fixed;
+    text-align: left;
+    width: var(--iconp);
+    left: var(--edge);
+}
+
+
+
+
+
+body{
+  background-color: var(--black);
+}
+
+
+
+:root {
+    --bar-logo:80%;
+    --bar-txt:85%;
+    --black: rgba(0,0,0,1.0);
+    --cornflower-blue: rgba(91,149,234,1.0);
+    --cream-brulee: rgba(255,222,160,1.0);
+    --malibu: rgba(106,189,255,1.0);
+    --mist-gray: rgba(196,196,196,1.0);
+    --white: rgba(255,255,255,1.0);
+    --iconp: 40px;
+    --edge: 5%;
+    --edge4: 4%;
+    --edge2: 25%;
+    --edge24: 24%;
+    --h: 1024px;
+    --h1:200px;
+    --p1: 375px;
+    --p2: 700px;
+    --P3: 200px;
+    --w1: 90%;
+    --l-blue: rgba(214,237,255,1.0);
+    --n-blue: rgba(151,209,255,1.0);
+    --l-red: rgba(255,215,215,1.0);
+    --n-red: rgba(255,162,162,1.0);
+    --l-brulee: rgba(255,238,205,1.0);
+    --n-brulee: rgba(255,210,125,1.0);
+    --l-purple: rgba(233,205,255,1.0);
+    --n-purple: rgba(212,159,255,1.0);
+    --txta1: 18%;
+}
